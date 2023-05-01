@@ -2,7 +2,7 @@ import React from 'react'
 
 const Software = () => {
   return (
-    <div>Software</div>
+    <div ></div>
   )
 }
 
