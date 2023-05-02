@@ -1,9 +1,9 @@
-import Software from "./components/Software";
+import Register from "./components/Register";
 
 function App() {
   return (
     <>
-    <Software/>
+      <Register />
     </>
   );
 }
