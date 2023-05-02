@@ -26,8 +26,8 @@ const Software = () => {
       </div>
 
       <div className='flex justify-center mt-10 gap-14'>
-        {sData.logos.map((item)=>(
-          <img src={item.src}/>
+        {sData.logos.map((item, index)=>(
+          <img key={index} src={item.src}/>
         ))}
       </div>
     </div>
