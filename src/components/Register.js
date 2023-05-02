@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Container from "./layout/Container";
 
 const Register = () => {
   let [registerPart, setRegisterPart] = useState({});
@@ -15,8 +16,8 @@ const Register = () => {
   return (
     <>
       <section className="mt-[120px]">
-        <div className="max-w-container mx-auto bg-[#F3F7FA] py-[75px] px-[60px] rounded-[20px] relative">
-          <div className="flex">
+        <Container className="  ">
+          <div className="flex bg-[#F3F7FA]  py-[75px] px-[60px] rounded-[20px] relative">
             <div className="w-1/2  sm:w-full">
               <h3 className="font-man font-extrabold text-lg text-primary uppercase">
                 {registerPart.subTitle}
@@ -28,15 +29,17 @@ const Register = () => {
                 {registerPart.paragraph}
               </p>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 ">
               <img
                 className="top-[-24px] right-[0] absolute"
                 src={registerPart.paymentShape}
               />
-              <div className="text-center">
+              <div className="pl-[2px]">
                 <h2 className="font-man font-bold text-2xl text-primary">
                   Get Started for Free
                 </h2>
+              </div>
+              <div className="text-center">
                 <div className="mt-[20px]">
                   <input
                     className="py-[17px] pl-[21px] w-[356px] rounded-md font-man font-normal text-xl text-para"
@@ -59,7 +62,7 @@ const Register = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );
