@@ -35,8 +35,6 @@ const Choose = () => {
         <p className='font-man font-normal	 mr-2 text-para mt-5'>{item.details}</p>
         </div>
       </div>
-
- 
         ))}
       </div>
 
