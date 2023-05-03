@@ -1,9 +1,9 @@
-import Software from "./components/Software";
+import Financy from "./components/Financy";
 
 function App() {
   return (
     <>
-    <Software/>
+      <Financy />
     </>
   );
 }
