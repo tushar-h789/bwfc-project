@@ -1,3 +1,6 @@
+
+
+import Navbar from "./components/Navbar";
 import Choose from "./components/Choose";
 import Software from "./components/Software";
 import Feature from "./components/Feature";
@@ -9,14 +12,16 @@ import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Register from "./components/Register";
 import Testimonial from "./components/Testimonial";
-import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <Navbar />
-      <Banner />
-      <Software />
-      <Payment />
+    <Navbar/>
+    <Banner/>
+    <Software/>
+    <Choose/>
+    <Feature/>
+    <Payment/>
+    <Residence/>
       <Register />
       <Financy />
       <Testimonial />
@@ -24,7 +29,7 @@ function App() {
       <Feature />
       <Choose />
       <Portfolio />
-      <Footer />
+       <Footer/>
     </>
   );
 }
