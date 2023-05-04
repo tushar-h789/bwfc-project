@@ -3,7 +3,7 @@ import Container from "./layout/Container";
 
 const Portfolio = () => {
   return (
-    <section className=" bg-primary">
+    <section className=" bg-primary mt-[100px]">
       <Container>
         <div className="  flex justify-between ">
           <div className=" w-1/2">
@@ -30,7 +30,7 @@ const Portfolio = () => {
               />
               <a
                 className=" inline-block mt-6 bg-secondary py-4 px-[140px] font-man font-bold text-base text-white border border-solid border-secondary hover:bg-transparent hover:border-white rounded-md"
-                href="#"
+                href="www.google.com"
               >
                 Get Started
               </a>

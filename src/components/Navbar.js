@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
+import Container from "./layout/Container";
 
 const Navbar = () => {
   let [navbarData, setNavbarData] = useState({});
@@ -20,8 +21,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="max-w-container mx-auto py-7">
-      <div className="flex justify-between items-center">
+    <Container className="max-w-container mx-auto ">
+      <div className="flex justify-between items-center mt-7">
         <div className="w-[10%] ">
           <img src={navbarData.logo} />
         </div>
@@ -74,7 +75,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-    </nav>
+    </Container>
   );
 };
 

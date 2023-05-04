@@ -21,7 +21,7 @@ const Financy = () => {
 
   return (
     <Container>
-      <div className=" flex justify-between ">
+      <div className=" flex justify-between mt-4">
         <div className=" w-[50%]">
           <p className=" font-man font-extrabold text-lg text-primary my-6">
             {/* {financyData.data.sunbTitle} */}

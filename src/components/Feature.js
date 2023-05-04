@@ -25,7 +25,7 @@ const Feature = () => {
     <section style={{backgroundImage:`url('${featureData.featureShape})`}}>
     
       <Container>
-        <div className="flex">
+        <div className="flex mt-24">
             <div className="w-2/4">
               <img className='h-[452px]' src={featureData.featureImage} alt='featureImage' />
             </div>

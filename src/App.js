@@ -1,35 +1,30 @@
-
-
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner"
 import Choose from "./components/Choose";
 import Software from "./components/Software";
 import Feature from "./components/Feature";
 import Payment from "./components/Payment";
 import Residence from "./components/Residence";
 import Financy from "./components/Financy";
-import Banner from "./components/Banner";
 import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
 import Register from "./components/Register";
 import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer"
 function App() {
   return (
     <>
-    <Navbar/>
-    <Banner/>
-    <Software/>
-    <Choose/>
-    <Feature/>
-    <Payment/>
-    <Residence/>
+      <Navbar />
+      <Banner />
+      <Software />
+      <Feature />
       <Register />
-      <Financy />
+      <Payment />
       <Testimonial />
       <Residence />
-      <Feature />
+      <Financy />
       <Choose />
       <Portfolio />
-       <Footer/>
+      <Footer />
     </>
   );
 }

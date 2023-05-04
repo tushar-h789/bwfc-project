@@ -4,14 +4,22 @@ import Container from "./layout/Container";
 
 const Register = () => {
   let [registerPart, setRegisterPart] = useState({});
+  
+  let [loader, setLoader] = useState(true)
+
 
   useEffect(() => {
     async function mregister() {
       let register = await axios.get("https://bwfc-api.vercel.app/payment");
       setRegisterPart(register.data);
+      setLoader(false)
     }
     mregister();
   }, []);
+
+  if(loader){
+    return <p>Loading....</p>
+  }
 
   return (
     <>
@@ -30,7 +38,7 @@ const Register = () => {
               </p>
             </div>
             <div className="w-1/2 ">
-              <img
+              <img alt="paymentShape"
                 className="top-[-24px] right-[0] absolute"
                 src={registerPart.paymentShape}
               />

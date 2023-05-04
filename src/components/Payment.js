@@ -24,7 +24,7 @@ const Payment = () => {
   return (
     <section className='relative' style={{backgroundImage:`url('./../assets/Union.png')`}}>
       <Container>
-      <div className='flex items-center'>
+      <div className='flex items-center mt-[106px]'>
         <div className='w-3/6'>
           <h4 className='font-man font-extrabold text-lg text-primary uppercase mb-[25px]'>{paymentData.subTitle}</h4>
           <h2 className='w-[520px] h-[168px] font-man font-bold text-5xl leading-[56px] mr-auto'>{paymentData.title}</h2>

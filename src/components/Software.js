@@ -1,6 +1,7 @@
 
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Container from './layout/Container'
 
 const Software = () => {
 
@@ -21,17 +22,19 @@ const Software = () => {
   }
 
   return (
-    <div className='max-w-container mx-auto'>
+    <Container>
+      <div className='max-w-container mx-auto mt-[71px]'>
       <div className='flex justify-center mt-[72px]'>
         <h3 className='font-man font-regular text-base'>{sData.title}</h3>
       </div>
 
-      <div className='flex justify-center mt-10 gap-14'>
+      <div className='flex justify-center mt-9 gap-14'>
         {sData.logos.map((item, index)=>(
           <img key={index} src={item.src}/>
         ))}
       </div>
     </div>
+    </Container>
 
   )
 }

@@ -23,7 +23,7 @@ const Choose = () => {
 
   return (
     <Container>
-      <div className="bg-[#F3F7FA] py-14 px-20 mt-10">
+      <div className="bg-[#F3F7FA] py-14 px-20 mt-[94px] rounded-lg">
         <div className="text-center mt-10">
           <h4 className="font-man font-extrabold text-lg text-[#3734A9]">
             {chooseData.subTitle}

@@ -23,7 +23,7 @@ const Residence = () => {
 
   return (
     <Container>
-      <section className='flex py-10 px-7 mt-10 border border-[#DEE1E6] items-center '>
+      <section className='flex py-10 px-7 mt-16 border border-[#DEE1E6] items-center '>
         <div className='w-3/4	'>
           <h3 className='font-man text-normal text-[22px] text-para'>{resiData.text}</h3>
         </div>
