@@ -1,9 +1,10 @@
 import Software from "./components/Software";
+import Residence from "./components/Residence"
 
 function App() {
   return (
     <>
-    <Software/>
+    <Residence/>
     </>
   );
 }
