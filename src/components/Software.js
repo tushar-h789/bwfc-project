@@ -1,3 +1,4 @@
+
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
@@ -31,6 +32,13 @@ const Software = () => {
         ))}
       </div>
     </div>
+
+import React from 'react'
+
+const Software = () => {
+  return (
+    <div>Software</div>
+
   )
 }
 
