@@ -1,9 +1,10 @@
+import Payment from "./components/Payment";
 import Software from "./components/Software";
 
 function App() {
   return (
     <>
-    <Software/>
+    <Payment/>
     </>
   );
 }
