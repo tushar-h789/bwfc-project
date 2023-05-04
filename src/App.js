@@ -1,4 +1,6 @@
 
+import Software from "./components/Software";
+import Residence from "./components/Residence"
 import Financy from "./components/Financy";
 import Portfolio from "./components/Portfolio";
 import Software from "./components/Software";
@@ -10,15 +12,13 @@ function App() {
   return (
     <>
 
-      
+    <Residence/>
       <Register />
       <Testimonial />
       <Financy />
       <Choose/>
       <Portfolio />
        <Footer/>
-
-
     </>
   );
 }
