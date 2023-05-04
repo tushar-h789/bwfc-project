@@ -1,9 +1,9 @@
-import Software from "./components/Software";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-    <Software/>
+    <Navbar/>
     </>
   );
 }
