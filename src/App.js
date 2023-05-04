@@ -1,4 +1,5 @@
 
+import Navbar from "./components/Navbar";
 import Choose from "./components/Choose";
 import Software from "./components/Software";
 import Software from "./components/Software";
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
 
+    <Navbar/>
     <Software/>
     <Choose/>
     <Feature/>
@@ -29,7 +31,6 @@ function App() {
       <Choose/>
       <Portfolio />
        <Footer/>
-
     </>
   );
 }
