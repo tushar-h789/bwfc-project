@@ -1,9 +1,9 @@
-import Software from "./components/Software";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-    <Software/>
+    <Footer/>
     </>
   );
 }
