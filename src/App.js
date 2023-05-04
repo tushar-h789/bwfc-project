@@ -1,4 +1,6 @@
 
+import Payment from "./components/Payment";
+import Software from "./components/Software";
 import Software from "./components/Software";
 import Residence from "./components/Residence"
 import Financy from "./components/Financy";
@@ -12,6 +14,7 @@ function App() {
   return (
     <>
 
+    <Payment/>
     <Residence/>
       <Register />
       <Testimonial />
