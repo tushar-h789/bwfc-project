@@ -1,4 +1,6 @@
 
+import Software from "./components/Software";
+import Feature from "./components/Feature";
 import Payment from "./components/Payment";
 import Software from "./components/Software";
 import Software from "./components/Software";
@@ -13,7 +15,7 @@ import Choose from "./components/Choose";
 function App() {
   return (
     <>
-
+    <Feature/>
     <Payment/>
     <Residence/>
       <Register />
