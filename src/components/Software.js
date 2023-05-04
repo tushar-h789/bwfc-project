@@ -33,12 +33,6 @@ const Software = () => {
       </div>
     </div>
 
-import React from 'react'
-
-const Software = () => {
-  return (
-    <div>Software</div>
-
   )
 }
 
