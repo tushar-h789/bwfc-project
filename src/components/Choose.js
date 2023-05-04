@@ -4,16 +4,21 @@ import axios from "axios";
 
 const Choose = () => {
   let [chooseData, setChooseData] = useState({});
+  let [loader, setLoader] = useState(true)
 
   useEffect(() => {
     async function Choose() {
       let chooseData = await axios.get("https://bwfc-api.vercel.app/choose");
       setChooseData(chooseData.data);
-      // console.log(chooseData.data.items[0].title);
       console.log(chooseData.data.items[0].visibility);
+      setLoader(false)
     }
     Choose();
   }, []);
+
+  if(loader){
+    return <p>Loading...</p>
+  }
 
   return (
     <Container>
