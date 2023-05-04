@@ -5,8 +5,8 @@ const Portfolio = () => {
   return (
     <div className=" bg-primary">
       <Container>
-        <div className=" flex justify-between">
-          <div>
+        <div className="  flex justify-between">
+          <div className=" w-1/2">
             <p className=" font-man font-bold text-sm text-white mt-20">
               WHY CHOOSE US
             </p>
@@ -18,23 +18,22 @@ const Portfolio = () => {
               Meet the right platform to help realize.
             </p>
           </div>
-          <div className=" flex items-center w-[50%] justify-center">
-            <div>
-              <input
-                placeholder="Email Adress"
-                className=" w-[371px] h-[60px] mt-6 rounded-md"
-              />
-              <input
-                placeholder="Password"
-                className=" w-[371px] h-[60px] mt-6 rounded-md"
-              />
-              <a
-                className=" inline-block mt-6 bg-secondary py-4 px-[140px] font-man font-bold text-base text-white border border-solid border-secondary hover:bg-transparent hover:border-white rounded-md"
-                href="#"
-              >
-                Get Started
-              </a>
-            </div>
+
+          <div className=" w-1/2">
+            <input
+              placeholder="Email Adress"
+              className=" w-[371px] h-[60px] mt-6 rounded-md"
+            />
+            <input
+              placeholder="Password"
+              className=" w-[371px] h-[60px] mt-6 rounded-md"
+            />
+            <a
+              className=" inline-block mt-6 bg-secondary py-4 px-[140px] font-man font-bold text-base text-white border border-solid border-secondary hover:bg-transparent hover:border-white rounded-md"
+              href="#"
+            >
+              Get Started
+            </a>
           </div>
         </div>
       </Container>
